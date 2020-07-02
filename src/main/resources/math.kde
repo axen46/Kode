@@ -1,0 +1,10 @@
+fun isNumber(m)
+{
+	var c=String(m);
+	var l=[];
+	for(var r=0;r<10;r=r+1)l.append(String(r));
+	var k=0;
+	for(var i=0;i<len(a);i=i+1){for(var j=0;j<10;j=j+1){if(a[i]==l[j])k=k+1;}}
+	if(k<len(a) or k==0)return False
+	else return True
+}
